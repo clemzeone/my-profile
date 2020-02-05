@@ -1,0 +1,86 @@
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(30,30,30);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+   
+}
+
+h1,h2,h3 { 
+	font-family: 'Martel Sans', sans-serif;
+}	
+h1 {
+	color: maroon;
+    font-weight: 100px;
+    letter-spacing: 4px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+h2{
+	color: maroon;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: maroon;
+}
+a:hover {
+	color: black;
+}
+
+/* custom design with a class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-wite {
+	background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px; 
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: maroon;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-red:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200,200,200);
+}
+
+.list-inline i:hover{
+	color: maroon;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
